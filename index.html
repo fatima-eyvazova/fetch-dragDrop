@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script src="/keys.js" defer></script>
+    <script src="/src/js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="weather">
+      <div class="container">
+        <h1>Weather Worecast</h1>
+        <div class="input-btn">
+          <input id="city-input" type="text" placeholder="City Name" />
+          <button class="btn">Search</button>
+        </div>
+
+        <div class="result"></div>
+      </div>
+    </div>
+    <div class="board">
+      <form id="todo-form">
+        <input type="text" placeholder="New TODO..." id="todo-input" />
+        <button type="submit">Add +</button>
+      </form>
+
+      <div class="lanes">
+        <div class="swim-lane" id="todo-lane">
+          <h3 class="heading">Open</h3>
+        </div>
+
+        <div class="swim-lane">
+          <h3 class="heading">In Progress</h3>
+        </div>
+
+        <div class="swim-lane">
+          <h3 class="heading">Completed</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
